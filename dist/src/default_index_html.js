@@ -126,6 +126,7 @@ exports.DEFAULT_INDEX_HTML = String.raw `<!DOCTYPE html>
           benchmarkdotnet: '#178600',
           customBiggerIsBetter: '#38ff38',
           customSmallerIsBetter: '#ff3838',
+          lit: '#185619',
           _: '#333333'
         };
 
