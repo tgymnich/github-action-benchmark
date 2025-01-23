@@ -424,11 +424,7 @@ function extractLitBenchmarkResult(output) {
         const name = b.testId;
         const value = parseFloat(b.duration.substring(0, b.duration.length - 2));
         const unit = 's';
-        const extra = `
-        expected: ${b.expected}
-        start_time: ${b.start_time}
-        status: ${b.status}
-        summary_html: ${b.summary_html}`;
+        const extra = `expected: ${b.expected}\nstart_time: ${b.start_time}\nstatus: ${b.status}\nsummary_html: ${b.summary_html}`;
         return { name, value, unit, extra };
     });
 }
